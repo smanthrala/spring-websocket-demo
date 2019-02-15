@@ -1,0 +1,105 @@
+.focus-field {
+    box-shadow: 0 0 3px 2px rgba(228, 121, 17, .5);
+    border-color: #e77600;
+}
+.shared-field {
+    --box-shadow: 0 0 3px 2px violet;
+    border-color: violet;
+}
+.shared-section {
+    border: 1px solid violet;
+}
+.shared-link {
+    cursor: pointer;
+    color: deepskyblue;
+}
+#banner {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    z-index: 99;
+}
+.icon {
+  width: 36px;
+  height: 36px;
+}
+.faicon-secondary{
+    font-size: 18px; 
+    color: #6c757d; 
+}
+.faicon-secondary:hover{
+    font-size: 18px; 
+    color: white; 
+}
+.faicon-success{
+    font-size: 18px; 
+    color: #28a745; 
+}
+.faicon-success:hover{
+    font-size: 18px; 
+    color: white; 
+}
+.faicon-danger{
+    font-size: 18px; 
+    color: #dc3545; 
+}
+.faicon-danger:hover{
+    font-size: 18px; 
+    color: white; 
+}
+.faicon-info{
+    font-size: 18px; 
+    color: #17a2b8; 
+}
+.faicon-info:hover{
+    font-size: 18px; 
+    color: white; 
+}
+
+.faicon-primary{
+    font-size: 18px; 
+    color: #0069d9;
+}
+.faicon-primary-active{
+    font-size: 18px; 
+    color: white; 
+    background-color: #0069d9;
+}
+.faicon-primary:hover{
+    font-size: 18px; 
+    color: white; 
+}
+.tooltip1 {
+    position: relative;
+    display: inline-block;
+}
+.tooltip1 .tooltiptext1 {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -125px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.tooltip1 .tooltiptext1::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+.tooltip1:hover .tooltiptext1 {
+    visibility: visible;
+    opacity: 1;
+}
